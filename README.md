@@ -16,7 +16,7 @@
     <br> 
 </p>
 
-## 📝 Table of Contents
+## 📝 Sommaire
 
 - [Info](#about)
 - [A faire](#todo)
@@ -34,11 +34,11 @@ Un simple site pour avoir affiché des statistiques de votre compte instagram Op
 - Nombre de like au total 
 - ...
 
-## ⛏️ Built Using <a name = "built_using"></a>
+## ⛏️ Dépendance <a name = "built_using"></a>
 
 - [Bootstrap](https://getbootstrap.com/) - Bootstrap - css
 
-## ✍️ Authors <a name = "authors"></a>
+## ✍️ Auteur <a name = "authors"></a>
 
 - [@andronedev](https://github.com/andronedev) - Développeur passionné
 - [![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/CDZkn2N)  
