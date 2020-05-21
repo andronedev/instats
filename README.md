@@ -1,6 +1,6 @@
 <p align="center">
   <a href="" rel="noopener">
- <img width=200px height=200px src="http://instats.fun/assets/img/InStats.png" alt="Project logo"></a>
+ <img src="http://instats.fun/assets/img/InStats.png" alt="Project logo"></a>
 </p>
 
 <h3 align="center">Instats</h3>
@@ -26,12 +26,12 @@
 
 ## 🧐 About <a name = "about"></a>
 
-Un simple site pour avoir affichier des statistiques de votre compte instagram  Open Source
+Un simple site pour avoir affiché des statistiques de votre compte instagram Open Source
 
 
 ## 🎈 A faire <a name="todo"></a>
 
-- Ajout graphique 
+- Ajout d'un graphique 
 - Nombre de like au total 
 - ...
 
@@ -41,9 +41,8 @@ Un simple site pour avoir affichier des statistiques de votre compte instagram  
 
 ## ✍️ Authors <a name = "authors"></a>
 
-- [@kylelobo](https://github.com/kylelobo) - Idea & Initial work
-
-See also the list of [contributors](https://github.com/kylelobo/The-Documentation-Compendium/contributors) who participated in this project.
+- [@andronedev](https://github.com/andronedev) - Développeur passionné
+- [![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/CDZkn2N)  
 
 ## ! Avertissement <a name = "avertissement"></a>
 
