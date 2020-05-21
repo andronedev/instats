@@ -3,12 +3,9 @@
  <img src="http://instats.fun/assets/img/InStats.png" alt="Project logo"></a>
 </p>
 
-<h3 align="center">Instats</h3>
 
 <div align="center">
-
-
-
+[![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/CDZkn2N)
 </div>
 
 ---
