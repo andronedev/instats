@@ -6,7 +6,7 @@
 
 <div align="center">
 
-[![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/CDZkn2N)
+[![Discord Chat](https://img.shields.io/discord/711647780158046269.svg)](https://discord.gg/CDZkn2N)
 
 </div>
 
