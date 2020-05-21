@@ -5,7 +5,9 @@
 
 
 <div align="center">
+
 [![Discord Chat](https://img.shields.io/discord/308323056592486420.svg)](https://discord.gg/CDZkn2N)
+
 </div>
 
 ---
