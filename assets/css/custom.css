@@ -1,0 +1,63 @@
+html {
+    margin: 0px;
+    height: 100%;
+    width: 100%;
+}
+
+body {
+
+
+    background: rgb(255, 99, 0);
+    background: -moz-linear-gradient(135deg, rgba(255, 99, 0, 1) 0%, rgba(6, 31, 99, 1) 44%, rgba(7, 71, 101, 1) 65%, rgb(0, 129, 155) 100%);
+    background: -webkit-linear-gradient(135deg, rgba(255, 99, 0, 1) 0%, rgba(6, 31, 99, 1) 44%, rgba(7, 71, 101, 1) 65%, rgba(0, 129, 155, 1) 100%);
+    background: linear-gradient(135deg, rgba(255, 99, 0, 1) 0%, rgba(6, 31, 99, 1) 44%, rgba(7, 71, 101, 1) 65%, rgba(0, 129, 155, 1) 100%);
+    
+background-size: 250% 250%;
+
+-webkit-animation: instatsbg 58s ease infinite;
+-moz-animation: instatsbg 58s ease infinite;
+-o-animation: instatsbg 58s ease infinite;
+animation: instatsbg 58s ease infinite;
+margin: 0px;
+min-height: 100%;
+width: 100%;
+
+justify-content: center;
+align-items: center;
+overflow-x: hidden;
+    
+}
+
+.center {
+    margin: 0 auto;
+    width: 80%;
+}
+@-webkit-keyframes instatsbg {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+}
+@-moz-keyframes instatsbg {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+}
+@-o-keyframes instatsbg {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+}
+@keyframes instatsbg {
+    0%{background-position:9% 0%}
+    50%{background-position:92% 100%}
+    100%{background-position:9% 0%}
+}
+.counternb {
+    color: rgb(139, 195, 212);
+    font-size: 10vw;
+}
+
+.specialtext {
+    mix-blend-mode: hard-light;
+
+} 

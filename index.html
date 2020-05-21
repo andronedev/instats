@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <!-- COMMON TAGS -->
+    <meta charset="utf-8">
+    <title>Instats</title>
+    <!-- Search Engine -->
+    <meta name="description"
+        content="Instats vous permet de voir en temps réel le nombre de followers Instagram ainsi que d'autres fonctionnalitées. gratuitement et facilement ">
+    <meta name="image" content="https://instats.fun/assets/img/InStats.png">
+    <!-- Schema.org for Google -->
+    <meta itemprop="name" content="Instats">
+    <meta itemprop="description"
+        content="Instats vous permet de voir en temps réel le nombre de followers Instagram ainsi que d'autres fonctionnalitées. gratuitement et facilement ">
+    <meta itemprop="image" content="https://instats.fun/assets/img/InStats.png">
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary">
+    <meta name="twitter:title" content="Instats">
+    <meta name="twitter:description"
+        content="Instats vous permet de voir en temps réel le nombre de followers Instagram ainsi que d'autres fonctionnalitées. gratuitement et facilement ">
+    <meta name="twitter:site" content="@instats1">
+    <meta name="twitter:creator" content="@instats1">
+    <meta name="twitter:image:src" content="https://instats.fun/assets/img/InStats.png">
+    <!-- Open Graph general (Facebook, Pinterest & Google+) -->
+    <meta name="og:title" content="Instats">
+    <meta name="og:description"
+        content="Instats vous permet de voir en temps réel le nombre de followers Instagram ainsi que d'autres fonctionnalitées. gratuitement et facilement ">
+    <meta name="og:image" content="https://instats.fun/assets/img/InStats.png">
+    <meta name="og:url" content="https://instats.fun/">
+    <meta name="og:site_name" content="Instats">
+    <meta name="og:locale" content="fr_fr">
+    <meta name="og:type" content="website">
+
+
+
+    <link rel="stylesheet" href="assets/css/bootstrap.css" />
+    <link rel="stylesheet" href="assets/css/all.css" />
+
+
+    <link rel="stylesheet" href="assets/css/counter.css" />
+    <link rel="stylesheet" href="assets/css/custom.css" />
+    <script src="/assets/js/icones.js"></script>
+    <script src="assets/js/counter.js"></script>
+    <script>
+        function msieversion() {
+
+            var ua = window.navigator.userAgent;
+            var msie = ua.indexOf("MSIE ");
+
+            if (msie > 0 || !!navigator.userAgent.match(/Trident.*rv\:11\./))  // If Internet Explorer, return version number
+            {
+                alert("Ce navigateur n'est pas pris en charge. --> https://www.mozilla.org/fr/firefox/new/");
+            }
+            else  // If another browser, return 0
+            {
+            }
+
+        }
+
+        msieversion()
+    </script>
+</head>
+
+<body id="bd">
+    <nav class="navbar navbar-expand navbar-light specialtext" style="background-color: #ffffff2a;">
+        <ul class="nav navbar-nav mx-auto order-0 text-center">
+            <li class="nav-item ">
+                <a class="nav-link" href="/p/avis.html">Avis</a>
+            </li>
+            <li class="nav-item active">
+                <a class="nav-link" href="/">Compteur de followers <span class="sr-only">(current)</span></a>
+            </li>
+
+            <li class="nav-item">
+                <a class="nav-link" href="/p/postinsta.html">Publications</a>
+            </li>
+        </ul>
+    </nav>
+
+    <div class="row">
+        <div class="col" style="margin-top: 5vw;" id="inig">
+            <img src="assets/img/InStats.png" class="rounded mx-auto d-flex justify-content-center">
+            <h1 class="text-center specialtext">Nombre de followers</h1>
+            <br>
+            <input style="width: 50vw;margin-left: auto; margin-right: auto; max-width: 400px; min-width: 200px;"
+                type="text" class="form-control form-control-sm text-center mx-auto" name="ig" id="ig"
+                aria-describedby="hig" placeholder="Pseudo Instagram" onchange="subinig(this.value);" />
+
+        </div>
+        <div class="col" id="icprofil" style="size: 5vw; margin: auto; margin-top: 2vw; display: none;">
+            <img class="rounded mx-auto d-block img-fluid" alt="" id="imgsrc" src="" />
+            <br />
+        </div>
+        <div class="w-100"></div>
+        <div class="col" id="counter" style="display: none;">
+
+            <hr />
+            <a href="index.html">
+                <h2 class="text-center" id="pseudoig"></h2>
+            </a>
+
+            <hr />
+            <center>
+                <h1 class="counternb odometer" id="counternb">0</h1>
+            </center>
+        </div>
+    </div>
+
+
+    <!-- Modal -->
+    <div class="modal fade" id="error" tabindex="-1" role="dialog" aria-labelledby="erreur" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Erreur</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Une erreur est survenue
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Fermer</button>
+                    <a href="/index.html" class="btn btn-primary">Retour au choix d'utilisateur</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="modal fade" id="error1" tabindex="-1" role="dialog" aria-labelledby="erreur1" aria-hidden="true">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Erreur</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    Le compte est introuvable ou en mode privée.
+                </div>
+                <div class="modal-footer">
+                    <a href="/index.html" class="btn btn-primary">Retour au choix d'utilisateur</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="assets/js/jquery.js"></script>
+    <script src="assets/js/popup.js"></script>
+    <script src="assets/js/bootstrap.js"></script>
+    <script src="assets/js/index.js"></script>
+</body>
+
+</html>
