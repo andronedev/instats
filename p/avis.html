@@ -80,9 +80,20 @@
     </nav>
 
     <div class="container">
-        <iframe class="col"
-            src="https://docs.google.com/forms/d/e/1FAIpQLSdpS9SMjCvmi8rxo-Egqwn25LnEHY290gW3Mr0oHrPzKnHCdw/viewform?embedded=true"
-            width="640" height="812" frameborder="0" marginheight="0" marginwidth="0">Chargement…</iframe>
+        <form name="contact" netlify>
+          <p>
+            <label>Nom <input type="text" name="name" /></label>
+          </p>
+          <p>
+            <label>Email <input type="email" name="email" /></label>
+          </p>
+            <p>
+            <label>Avis <input type="text" name="avis" /></label>
+          </p>
+          <p>
+            <button type="submit">Send</button>
+          </p>
+        </form>
     </div>
     <script src="/assets/js/jquery.js"></script>
     <script src="/assets/js/popup.js"></script>
