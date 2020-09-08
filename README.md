@@ -8,7 +8,7 @@
 <div align="center">
 
 [![Netlify Status](https://api.netlify.com/api/v1/badges/b6a9c2fa-833b-4b49-9e94-90e2e272a2a5/deploy-status)](https://app.netlify.com/sites/instats/deploys)
-
+![Maintenance](https://img.shields.io/maintenance/no/2020)
 [![Discord Chat](https://img.shields.io/discord/711647780158046269.svg)](https://discord.gg/CDZkn2N)
 
 </div>
