@@ -2,6 +2,7 @@
   <a href="" rel="noopener">
  <img src="http://instats.fun/assets/img/InStats.png" alt="Project logo"></a>
 </p>
+[![Netlify Status](https://api.netlify.com/api/v1/badges/b6a9c2fa-833b-4b49-9e94-90e2e272a2a5/deploy-status)](https://app.netlify.com/sites/instats/deploys)
 
 
 <div align="center">
